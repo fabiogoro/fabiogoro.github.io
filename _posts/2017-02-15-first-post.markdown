@@ -1,5 +1,7 @@
 ---
 title:  "First Post!"
+layout: post
+date: 2014-04-30
 ---
 This is the first post I'm writing in Jekyll. This looks not easy.
 
