@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Hank Quinlan, Horrible Cop
+title: Fabio Gorodscy // Github Page
 ---
-<div>
-	<h1>Hi there, I'm Hank Quinlan!</h1>
-	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-</div>
+
+# Hey, I'm Fabio Gorodscy.
+
+I'm a programmer mostly interested into audio signals. I absolutely love music. [Read more about my life...](/about)

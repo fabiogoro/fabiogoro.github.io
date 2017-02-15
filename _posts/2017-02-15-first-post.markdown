@@ -1,22 +1,16 @@
 ---
-title:  "First Post!"
+title:  "Learning to use Jekyll"
 layout: post
-date: 2014-04-30
+date: 2017-02-15
 ---
-This is the first post I'm writing in Jekyll. This looks not easy.
+This is the first post I'm writing in Github Page. I'm using Jekyll, at first touch this looks not easy.
 
-Jekyll also offers powerful support for code snippets:
+But the real thing is that I was using it incorrectly. It's designed to be simple.
+If you try to keep it simple it's quite impressive.
+It allows you to write posts in markdown language and keep them in a organized structure.
+Github blocks you from using plugins, so I believe you lose big amount of its power.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Github gives you some themes, I wasn't able of using them and using jekyll as a blog.
+So I have to build a css to give a good feel. Meanwhile I just used some template I've seen in a good [post](http://jmcglone.com/guides/github-pages/)
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+C ya. Bye.

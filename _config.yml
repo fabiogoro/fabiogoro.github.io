@@ -5,8 +5,4 @@ description: > # this means to ignore newlines until "baseurl:"
   new things I learn through my life.
 github_username:  fabiogoro
 
-# markdown: kramdown
-
 permalink: /blog/:year/:month/:day/:title
-
-theme: jekyll-theme-hacker
