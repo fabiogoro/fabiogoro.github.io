@@ -8,6 +8,7 @@ body {
     min-height: 100%;
     padding-top: 30px;
     padding-bottom: 90px;
+    width: 100%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -47,8 +48,16 @@ ul.posts li {
 
 .main-section {
   padding-top: 30px;
-  margin-left: 120px;
-  width: 80%;
+  padding-left: 120px;
+  padding-right: 120px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .main-section {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 .footer {
