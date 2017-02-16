@@ -1,6 +1,13 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.page{
+    position: relative;
+    min-height: 100%;
+    padding-top: 30px;
+    padding-bottom: 90px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -28,10 +35,6 @@ p {
     line-height: 1.4em;
     color: #333;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-}
 
 ul.posts { 
     margin: 20px auto 40px; 
@@ -40,4 +43,24 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.main-section {
+  padding-top: 30px;
+  margin-left: 120px;
+  width: 80%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  text-align: right;
+}
+
+.footer ul {
+  margin-top: 20px;
 }
