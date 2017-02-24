@@ -1,0 +1,167 @@
+---
+title:  "Creating a simple and easy Rails API"
+layout: post
+date: 2017-02-24
+---
+
+Rails can do some amazing stuff, there's no doubt in that. 
+But if you want to keep things simple,
+that's where rails will really shine.
+
+Today we're creating a simple Rails RESTful API that will return request with JSON files.
+
+Before starting let's just check you have Ruby and Rails installed 
+by following the begging of [Rails Getting Started](http://guides.rubyonrails.org/getting_started.html#installing-rails).
+By the way, this getting started is really useful, and any further doubts you have you can always check out there.
+If there's not the answer in this guide, there is probably some other page in the documentation that can help you.
+Rails community does a real good job maintaining those guides.
+
+So, alright. Let's get going.
+
+First step is creating a new Rails application. Let's call it "api"
+
+```
+rails new api
+```
+
+This creates a folder called api with some template files for rails. 
+
+Then we need a controller for handling the requests to the server. Let's call it "record". 
+(A good idea is to name it after what is being saved on de database, like "posts" for a blog)
+
+```
+rails generate controller record
+```
+
+It's important to cd into the project folder before running this. Then, let's open the controller to add a new action.
+The controller is living in `app/controllers/record_controller.rb`. Open it with some text editor.
+
+```ruby
+class RecordController < ApplicationController
+  def hello
+    render :json { 'content': 'hello' }
+  end
+end
+```
+
+Then let's add a new route in file config/routes.rb
+
+```ruby
+Rails.application.routes.draw do
+  get 'record/hello'
+end
+```
+
+With this set up you can already `rails server` and go to [localhost](localhost:3000/record/hello) to see some generated json.
+
+Now, what we need is to add some database connection into it.
+For this we need to create a model.
+
+```
+rails generate model record title content
+```
+
+If everything goes alright just migrate it for the moment.
+
+```
+rails db:migrate
+```
+
+So now we supposedly have a records model and a records controller.
+We can then test the model by entering `rails console` and typing
+
+```
+rec = Record.new(title: 'Some record title', content: 'Some content for this record')
+rec.save
+```
+
+If no error is shown we are still alright. Let's then quit the console and prepare a new action for the controller.
+Again lets change `app/controller/record_controller.rb`
+
+```ruby
+class RecordController < ApplicationController
+  def hello
+    render :json { 'content': 'hello' }
+  end
+  
+  def show
+    render :json Record.find(params[:id])
+  end
+end
+```
+And create the route for calling this action. `config/routes.rb`
+
+```ruby
+Rails.application.routes.draw do
+  get 'record/hello'
+  resources :record, only: :show
+end
+```
+Now we can already `rails server` and visit [localhost](localhost:3000/record/1) again.
+
+You're probably seeing a json page with the content saved from the console.
+
+The last step I'm showing here is how to create the action and route for posting content into the server.
+
+Again in `app/controller/record_controller.rb`
+
+```ruby
+class RecordController < ApplicationController
+  skip_before_action :verify_authenticity_token
+
+  def hello
+    render :json { 'content': 'hello' }
+  end
+  
+  def show
+    render :json Record.find(params[:id])
+  end
+
+  def create
+    a = Record.new(record_params)
+    a.save
+    render :json a
+  end
+
+  private
+  def record_params
+    params.require(:record).permit(:title, :content)
+  end
+end
+```
+
+Notice here we skip authenticity token verification. This can lead to CSRF attacks, as the application won't verify if the requesting page is known by the server. I am not explaining how to deal with it here since it's a simple and small example where attacks won't do no harm to no one. But beware and use it at your own risks.
+
+And `config/routes.rb`
+
+```ruby
+Rails.application.routes.draw do
+  get 'record/hello'
+  resources :record, only: [:show, :create]
+end
+```
+
+To test that it is working create a html page somewhere and open it in some browser 
+
+```html
+<html>
+  <body>
+    <form action="http://localhost:3000/record" method="post">
+      First name:<br>
+      <input type="text" name="record[title]" value="Mickey"><br>
+      Last name:<br>
+      <input type="text" name="record[content]" value="Mouse"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
+```
+
+Notice here the name of the input fields. It's important that it has `name_of_the_class[name_of_the_attribute]` format.
+Remember you need to keep the Rails server running before making the requests. So `rails server`.
+
+After that you'll be able of creating and viewing the saved records.
+
+We've seen here a simple application that can answer get and posts requests for saving and getting records from a database using Rails.
+You can create this in short time and get something useful really fast.
+That's a reason why Ruby on Rails can be a good partner of yours.
