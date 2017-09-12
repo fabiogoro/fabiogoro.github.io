@@ -11,6 +11,7 @@ title: About Fabio Gorodscy // Github Page
 
 What have I been doing in USP?
 
+* [Query-by-Humming research](/research)
 * [Banda Aberta](http://www.ime.usp.br/~fabiog/banda/)
 * [Some Web Audio API experiments](https://www.ime.usp.br/~fabiog/webaudio/)
 * [Some WebGL experiments](https://www.ime.usp.br/~fabiog/grafico/)
