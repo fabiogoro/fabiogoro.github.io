@@ -3,7 +3,7 @@ layout: default
 title: About Fabio Gorodscy // Github Page
 ---
 
-# Strategies for Matching Hummed Queries Melodies
+# Strategies for Matching Hummed Query Melodies
 
 <html>
 <p>Strategies for matching extracted melodies from hummed song recordings with its handwritten counterpart are methodically reviewed and presented in a intuitive perspective.
