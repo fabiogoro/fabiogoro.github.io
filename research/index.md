@@ -15,5 +15,5 @@ Among the difficulties of such task are the imprecisions of translating hummed r
 Documents and pages of the project:
 
 * [Code repository](https://github.com/fabiogoro/qbh)
-* [Sample application](https://pidois.tk)
-* [Project description (Portuguese, qualificação)](https://www.ime.usp.br/~fabiog/grafico/)
+* [Sample application](https://qbh.pidois.tk)
+* [Project description (Portuguese, qualificação)](https://www.ime.usp.br/~fabiog/quali.pdf)
