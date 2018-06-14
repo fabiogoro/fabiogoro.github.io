@@ -5,7 +5,11 @@ title: About Fabio Gorodscy // Github Page
 
 # Strategies for Matching Hummed Query Melodies
 
-<html>
+<html> 
+  <video width="320" height="240" controls>
+    <source src="qbh.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video> 
 <p>Strategies for matching extracted melodies from hummed song recordings with its handwritten counterpart are methodically reviewed and presented in a intuitive perspective.
 Through several experiments, weaknesses and strengths of matching algorithms are thoroughly explored to create a comprehensive description of contexts and scenarios where it can be applied. 
 For that, a database, the MIR-QBSH, was used, where 48 midi files (the handwritten melody) associated with respectives 4431 wav files (the hummed recordings).
