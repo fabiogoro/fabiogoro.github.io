@@ -6,7 +6,7 @@ title: About Fabio Gorodscy // Github Page
 # Strategies for Matching Hummed Query Melodies
 
 <html> 
-  <video width="320" height="240" controls>
+  <video controls>
     <source src="/qbh.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video> 

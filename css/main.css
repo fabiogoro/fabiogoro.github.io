@@ -3,6 +3,12 @@ body {
     height: 100%;
     width: 100%;
 }
+
+video{
+  width: 100%;
+  height: 20%;
+}
+
 .page{
     position: relative;
     min-height: 100%;
