@@ -7,7 +7,7 @@ title: About Fabio Gorodscy // Github Page
 
 <html> 
   <video width="320" height="240" controls>
-    <source src="qbh.mp4" type="video/mp4">
+    <source src="/qbh.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video> 
 <p>Strategies for matching extracted melodies from hummed song recordings with its handwritten counterpart are methodically reviewed and presented in a intuitive perspective.
