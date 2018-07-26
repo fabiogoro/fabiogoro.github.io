@@ -12,7 +12,7 @@ title: About Fabio Gorodscy // Github Page
 What have I been doing at USP?
 
 * [Query-by-Humming research](/research)
-* [Banda Aberta](http://www.ime.usp.br/~fabiog/banda/)
+* [Banda Aberta](http://banda.codigo.xyz)
 * [MIDI transcriptor/visualizer](https://qbh.pidois.tk/)
 * [Web Audio harp](https://www.ime.usp.br/~fabiog/karplus/harp.html)
 * [Some Web Audio API experiments](https://www.ime.usp.br/~fabiog/webaudio/)
