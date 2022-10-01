@@ -7,7 +7,7 @@ title: Fabio Gorodscy // Github Page
 
 ## About
 
-Software developer, teacher and researcher. Main interests: web applications, sensor signal processing, IOT systems for water and sanitation, acoustic signal processing. Experience working in software development for education sector and water and sanitation sector. In education, has a Computer Science focus, but studied Environmental Sanitation and Computer Music.
+* Software developer, teacher and researcher. Main interests: web applications, sensor signal processing, IOT systems for water and sanitation, acoustic signal processing. Experience working in software development for education sector and water and sanitation sector. In education, has a Computer Science focus, but studied Environmental Sanitation and Computer Music.
 
 ## Formal Education
 
