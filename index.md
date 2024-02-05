@@ -7,19 +7,27 @@ title: Fabio Gorodscy // Github Page
 
 ## About
 
-* Software developer, teacher and researcher. Main interests: web applications, sensor signal processing, IOT systems for water and sanitation, acoustic signal processing. Experience working in software development for education sector and water and sanitation sector. In education, has a Computer Science focus, but studied Environmental Sanitation and Computer Music.
-
-## Formal Education
-
-* School of Sociology and Politics Foundation (FESP-SP): MBA in Environmental Sanitation - Research: Leak detection for water distribution systems with sensor networks
-* University of São Paulo (USP): MSc in Computer Science - Research: Information retrieval of melodies through hummed queries - query-by-humming systems
-* Federal University of São Carlos (UFSCar): BSc in Computer Science
+* Software developer, teacher and researcher. Avid learner, passionate about computers and music.
 
 ## Work Experience
 
-* Faculty Impacta: Professor - Course: Systems Development - Classes: Web development, data structure
-* Water and Sanitation Company of São Paulo (SABESP): System Analyst - Area: System development - Projects: Energy consumption control system, end-user comunication page
-* Vestibulare: Software developer - Project: Grades and classes control system for schools
+* 2019-2023: Project Manager, SABESP, São Paulo, Brasil.
+    * Responsibilities: Assuring time and quality for software development projects.
+* 2020-2021: Teacher, Faculdade Impacta, São Paulo, Brasil.
+    * Responsibilities: Teaching web development for the Software Development graduation degree.
+* 2018-2019: Full-stack Developer, Vestibulare Educacional, São Paulo, Brasil.
+    * Responsibilities: Creating from scratch a "Google-classroom"-like web application.
+* 2015-2016: Technical Support Agent, Teleperformance, São Paulo, Brasil.
+    * Responsibilities: Helping customers of a web hosting company.
+
+## Formal Education
+
+* 2020: MBA in Environmental Sanitation, School of Sociology and Politics Foundation, FESP-SP, São Paulo, Brasil, Year of degree: 2022
+    * MBA research work: Leak detection for water distribution systems with sensor networks.
+* 2016: MSc in computer science, University of São Paulo, São Paulo, Brasil, Year of degree: 2019
+    * MSc dissertation: Investigating algorithms for query-by-humming applications.
+* 2008: BSc in computer science, University of São Carlos, Sorocaba, Brasil, Year of degree: 2014
+
 
 ## Publications
 
