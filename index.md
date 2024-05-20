@@ -11,14 +11,10 @@ title: Fabio Gorodscy // Github Page
 
 ## Work Experience
 
-* 2019-2023: Project Manager, SABESP, São Paulo, Brasil.
-    * Responsibilities: Assuring time and quality for software development projects.
+* 2019-2023: System Analyst, SABESP, São Paulo, Brasil.
 * 2020-2021: Teacher, Faculdade Impacta, São Paulo, Brasil.
-    * Responsibilities: Teaching web development for the Software Development graduation degree.
 * 2018-2019: Full-stack Developer, Vestibulare Educacional, São Paulo, Brasil.
-    * Responsibilities: Creating from scratch a "Google-classroom"-like web application.
 * 2015-2016: Technical Support Agent, Teleperformance, São Paulo, Brasil.
-    * Responsibilities: Helping customers of a web hosting company.
 
 ## Formal Education
 
